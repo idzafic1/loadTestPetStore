@@ -1,0 +1,376 @@
+{
+    "metrics": {
+        "http_req_waiting": {
+            "med": 128.852071,
+            "max": 1024.439647,
+            "p(90)": 135.452033,
+            "p(95)": 139.304893,
+            "avg": 131.02509116004092,
+            "min": 121.947548
+        },
+        "pet_creation_time": {
+            "avg": 131.05661228389528,
+            "min": 125.073011,
+            "med": 129.703618,
+            "max": 167.948494,
+            "p(90)": 136.15338359999998,
+            "p(95)": 139.73327450000002,
+            "thresholds": {
+                "p(95)<3000": false
+            }
+        },
+        "inventory_get_time": {
+            "p(95)": 137.6878343,
+            "avg": 131.12134885842687,
+            "min": 123.977813,
+            "med": 128.88755,
+            "max": 908.668431,
+            "p(90)": 133.6972012,
+            "thresholds": {
+                "p(95)<1000": false
+            }
+        },
+        "vus": {
+            "value": 1,
+            "min": 0,
+            "max": 50
+        },
+        "http_req_blocked": {
+            "avg": 1.7471026576992728,
+            "min": 0.000123,
+            "med": 0.000433,
+            "max": 506.904138,
+            "p(90)": 0.000898,
+            "p(95)": 0.001072
+        },
+        "http_req_sending": {
+            "min": 0.013713,
+            "med": 0.069047,
+            "max": 0.873743,
+            "p(90)": 0.123422,
+            "p(95)": 0.144147,
+            "avg": 0.07628769633605878
+        },
+        "data_received": {
+            "rate": 284737.3967921887,
+            "count": 140800962
+        },
+        "user_operations_time": {
+            "max": 854.68698,
+            "p(90)": 135.0496756,
+            "p(95)": 138.51166439999997,
+            "avg": 130.9719619460677,
+            "min": 122.437447,
+            "med": 129.26309750000001
+        },
+        "http_req_tls_handshaking": {
+            "p(95)": 0,
+            "avg": 1.1619972009237873,
+            "min": 0,
+            "med": 0,
+            "max": 271.45546,
+            "p(90)": 0
+        },
+        "http_req_connecting": {
+            "avg": 0.5717647648711066,
+            "min": 0,
+            "med": 0,
+            "max": 176.208609,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "iteration_duration": {
+            "avg": 6378.016727781276,
+            "min": 6241.695958,
+            "med": 6312.271476,
+            "max": 7425.719953,
+            "p(90)": 6442.1970498,
+            "p(95)": 6921.1687381
+        },
+        "successful_requests": {
+            "count": 10670,
+            "rate": 21.577608424100493
+        },
+        "errors": {
+            "fails": 10670,
+            "passes": 10,
+            "thresholds": {
+                "rate<0.15": false
+            },
+            "value": 0.0009363295880149813
+        },
+        "checks": {
+            "passes": 28017,
+            "fails": 18,
+            "value": 0.9993579454253612
+        },
+        "iterations": {
+            "count": 1335,
+            "rate": 2.699728889050999
+        },
+        "http_req_failed": {
+            "passes": 10,
+            "fails": 16011,
+            "thresholds": {
+                "rate<0.15": false
+            },
+            "value": 0.000624180762748892
+        },
+        "vus_max": {
+            "value": 50,
+            "min": 50,
+            "max": 50
+        },
+        "http_req_duration": {
+            "p(90)": 140.047183,
+            "p(95)": 149.315617,
+            "avg": 136.68541631589858,
+            "min": 122.266616,
+            "med": 129.411531,
+            "max": 1233.629863,
+            "thresholds": {
+                "p(95)<2000": false
+            }
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(90)": 140.047707,
+            "p(95)": 149.3226095,
+            "avg": 136.68965104234655,
+            "min": 122.266616,
+            "med": 129.411444,
+            "max": 1233.629863
+        },
+        "data_sent": {
+            "count": 2639859,
+            "rate": 5338.504573274367
+        },
+        "pet_get_time": {
+            "avg": 130.3833122823968,
+            "min": 124.76948,
+            "med": 129.029476,
+            "max": 179.664062,
+            "p(90)": 135.38903919999998,
+            "p(95)": 139.0369547,
+            "thresholds": {
+                "p(95)<1000": false
+            }
+        },
+        "http_reqs": {
+            "count": 16021,
+            "rate": 32.39876893744273
+        },
+        "failed_requests": {
+            "rate": 0.020222688307498116,
+            "count": 10
+        },
+        "order_creation_time": {
+            "avg": 132.10247503071162,
+            "min": 124.919002,
+            "med": 129.492759,
+            "max": 1024.607011,
+            "p(90)": 135.87831060000002,
+            "p(95)": 140.8893588,
+            "thresholds": {
+                "p(95)<2000": false
+            }
+        },
+        "group_duration": {
+            "med": 2052.5761,
+            "max": 3279.712005,
+            "p(90)": 2288.4903832,
+            "p(95)": 2304.0548694,
+            "avg": 1792.4259948421902,
+            "min": 1051.410842
+        },
+        "http_req_receiving": {
+            "avg": 5.584037459521841,
+            "min": 0.009026,
+            "med": 0.407465,
+            "max": 1080.012722,
+            "p(90)": 1.014711,
+            "p(95)": 9.64641
+        }
+    },
+    "setup_data": {
+        "startTime": "2026-01-05T02:11:30.079Z"
+    },
+    "root_group": {
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "Store Operations": {
+                "groups": {},
+                "checks": {
+                        "Inventory:  status is 200": {
+                            "name": "Inventory:  status is 200",
+                            "path": "::Store Operations::Inventory:  status is 200",
+                            "id": "e8aa5d591d85744a1148566ca6507697",
+                            "passes": 1333,
+                            "fails": 2
+                        },
+                        "Inventory:  response time OK": {
+                            "name": "Inventory:  response time OK",
+                            "path": "::Store Operations::Inventory:  response time OK",
+                            "id": "a7e3e8dc3fe32d642728325c04d4a0c0",
+                            "passes": 1335,
+                            "fails": 0
+                        },
+                        "Inventory: is JSON": {
+                            "path": "::Store Operations::Inventory: is JSON",
+                            "id": "7df075face20854643878ca140f6723d",
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Inventory: is JSON"
+                        },
+                        "Order: status is 200": {
+                            "id": "edb11fd63003e82873026bb10deda460",
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Order: status is 200",
+                            "path": "::Store Operations::Order: status is 200"
+                        },
+                        "Order: response time OK": {
+                            "name": "Order: response time OK",
+                            "path": "::Store Operations::Order: response time OK",
+                            "id": "94b47b0f78d74018396deced3f4d7178",
+                            "passes": 1335,
+                            "fails": 0
+                        }
+                    },
+                "name": "Store Operations",
+                "path": "::Store Operations",
+                "id": "487eb61110937860df3cda9200197a6a"
+            },
+            "Pet Operations": {
+                "groups": {},
+                "checks": {
+                        "Create Pet:  status is 200": {
+                            "name": "Create Pet:  status is 200",
+                            "path": "::Pet Operations::Create Pet:  status is 200",
+                            "id": "e820f4f703291bf415cdcb307283118e",
+                            "passes": 1335,
+                            "fails": 0
+                        },
+                        "Create Pet: response time OK": {
+                            "id": "6a877e6e38d1094b1e50e310067f9d74",
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Create Pet: response time OK",
+                            "path": "::Pet Operations::Create Pet: response time OK"
+                        },
+                        "Create Pet: returns pet data": {
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Create Pet: returns pet data",
+                            "path": "::Pet Operations::Create Pet: returns pet data",
+                            "id": "724e031113f58da4d6c2df1d61679c24"
+                        },
+                        "Get Pet:  status is 200": {
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Get Pet:  status is 200",
+                            "path": "::Pet Operations::Get Pet:  status is 200",
+                            "id": "fee6cd6c6d802aec070ee80ff4eb4abb"
+                        },
+                        "Get Pet: response time OK": {
+                            "name": "Get Pet: response time OK",
+                            "path": "::Pet Operations::Get Pet: response time OK",
+                            "id": "243b7e87464c674ff6813f574f5a134f",
+                            "passes": 1335,
+                            "fails": 0
+                        },
+                        "Find Pets: status is 200": {
+                            "name": "Find Pets: status is 200",
+                            "path": "::Pet Operations::Find Pets: status is 200",
+                            "id": "cf6cc725abac25929139df09be096eb1",
+                            "passes": 1327,
+                            "fails": 8
+                        },
+                        "Find Pets: returns array": {
+                            "passes": 1327,
+                            "fails": 8,
+                            "name": "Find Pets: returns array",
+                            "path": "::Pet Operations::Find Pets: returns array",
+                            "id": "5dd28d0b4b389cde0dd40ddc3d705fa3"
+                        },
+                        "Update Pet: status is 200": {
+                            "path": "::Pet Operations::Update Pet: status is 200",
+                            "id": "ad80fe791f0da94734ab304a1145f980",
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Update Pet: status is 200"
+                        },
+                        "Update Pet: response time OK": {
+                            "name": "Update Pet: response time OK",
+                            "path": "::Pet Operations::Update Pet: response time OK",
+                            "id": "9f72d8dda3f5913709874744de085a59",
+                            "passes": 1335,
+                            "fails": 0
+                        },
+                        "Delete Pet: status is 200 or 404": {
+                            "name": "Delete Pet: status is 200 or 404",
+                            "path": "::Pet Operations::Delete Pet: status is 200 or 404",
+                            "id": "153f0e56bdcbe483b20af8dd62d74478",
+                            "passes": 1335,
+                            "fails": 0
+                        }
+                    },
+                "name": "Pet Operations",
+                "path": "::Pet Operations",
+                "id": "4de2210ba6b4ef78e9ec982dffe96804"
+            },
+            "User Operations": {
+                "name": "User Operations",
+                "path": "::User Operations",
+                "id": "efaf3e4dd466964aed72d3fbf97d36b2",
+                "groups": {},
+                "checks": {
+                        "Create User:  status is 200": {
+                            "name": "Create User:  status is 200",
+                            "path": "::User Operations::Create User:  status is 200",
+                            "id": "51793c0a94336474ac5d1c4b5ed22cfa",
+                            "passes": 1335,
+                            "fails": 0
+                        },
+                        "Create User: response time OK": {
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Create User: response time OK",
+                            "path": "::User Operations::Create User: response time OK",
+                            "id": "abdd8a615c4929322d58ded952dd08d0"
+                        },
+                        "Login:  status is 200": {
+                            "fails": 0,
+                            "name": "Login:  status is 200",
+                            "path": "::User Operations::Login:  status is 200",
+                            "id": "f94901440aa9216771dc6c55aed921a6",
+                            "passes": 1335
+                        },
+                        "Login: has session": {
+                            "name": "Login: has session",
+                            "path": "::User Operations::Login: has session",
+                            "id": "4a792168bf5acc951f4029ca61f5b55b",
+                            "passes": 1335,
+                            "fails": 0
+                        },
+                        "Get User: status is 200 or 404": {
+                            "path": "::User Operations::Get User: status is 200 or 404",
+                            "id": "9b992af71c239c2c32f36996b0d498d0",
+                            "passes": 1335,
+                            "fails": 0,
+                            "name": "Get User: status is 200 or 404"
+                        },
+                        "Logout: status is 200": {
+                            "name": "Logout: status is 200",
+                            "path": "::User Operations::Logout: status is 200",
+                            "id": "2d830fe828c47eb97773174965125c21",
+                            "passes": 1335,
+                            "fails": 0
+                        }
+                    }
+            }
+        },
+        "checks": {},
+        "name": "",
+        "path": ""
+    }
+}
