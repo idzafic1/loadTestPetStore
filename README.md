@@ -5,4 +5,4 @@ Skripte za testiranje (smoke, stress, spike, full load) i generisani izvještaji
 Rezultati testova su u folderu `results/`, uključujući sažetke i historiju testiranja.
 
 Rezultati i izvještaji će biti hostani putem GitHub Pages.
-Link za pristup izvještajima: [placeholder - uskoro dostupno]
+Link za pristup izvještajima: https://idzafic1.github.io/loadTestPetStore
